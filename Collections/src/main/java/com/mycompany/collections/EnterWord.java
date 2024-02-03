@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class EnterWord {
 
-    public HashMap<String, String> word = new HashMap<String, String>();
+    private HashMap<String, String> word = new HashMap<String, String>();
 
     public void Input() {
         word.put("caculate", "tinh toan");
